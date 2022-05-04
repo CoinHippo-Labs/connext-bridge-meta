@@ -1,10 +1,8 @@
 exports.handler = async (event, context, callback) => {
-  // import lodash
-  const _ = require('lodash');
   // import bridge config
   const { chains, assets } = require('./lib/config');
-  // import utils
-  const { meta } = require('./lib/utils');
+  // import meta
+  const { env, meta } = require('./lib/meta');
 
   const bot_user_agent_patterns = ['facebook','twitter','google','slack','linkedin','pinterest'];
   const ignore_path_patterns = ['.js','.json','.css','.txt','.png','.xml','sitemap','/static','favicon'];
