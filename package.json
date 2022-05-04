@@ -1,0 +1,25 @@
+{
+  "name": "connext-bridge-meta",
+  "version": "0.0.1",
+  "description": "Meta tags service for Connext Bridge",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoinHippo-Labs/connext-bridge-meta.git"
+  },
+  "author": "CoinHippo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoinHippo-Labs/connext-bridge-meta/issues"
+  },
+  "homepage": "https://github.com/CoinHippo-Labs/connext-bridge-meta#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "lodash": "^4.17.21"
+  }
+}
